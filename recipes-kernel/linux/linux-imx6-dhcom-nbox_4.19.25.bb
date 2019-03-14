@@ -10,12 +10,12 @@ require recipes-kernel/linux/linux-imx6-dhcom.inc
 DEPENDS += "lzop-native bc-native"
 
 # select branch 
-SRCBRANCH = "release/nBox/4.19.5_dhsom/20181205"
+SRCBRANCH = "release/nBox/4.19.25_dhsom/20190306"
 
 # use latest source
 SRCREV = "${AUTOREV}"
 
-LOCALVERSION = "-release20180124"
+LOCALVERSION = "-release20190306"
 
 #SRC_URI += "file://0001-.....patch"
 

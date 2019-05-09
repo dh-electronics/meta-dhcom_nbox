@@ -11,7 +11,7 @@ LIC_FILES_CHKSUM="file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 DEPENDS += "lzop-native bc-native"
 
 # select branch 
-SRCBRANCH = "release/nBox/4.19.25_dhsom/20190306"
+SRCBRANCH = "release/nBox/4.19.25_dhsom/20190508"
 
 # use latest source
 SRCREV = "${AUTOREV}"

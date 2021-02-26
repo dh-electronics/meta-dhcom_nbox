@@ -90,7 +90,7 @@ do_install () {
 	install -m 444 ${S}/cyw-fmac-nvram/brcmfmac43362-sdio.SN8000.txt ${D}/lib/firmware/brcm/brcmfmac43362-sdio.txt
 	install -m 444 ${S}/cyw-fmac-nvram/brcmfmac43430-sdio.1DX.txt ${D}/lib/firmware/brcm/brcmfmac43430-sdio.txt
 	install -m 444 ${S}/cyw-fmac-nvram/brcmfmac43455-sdio.1MW.txt ${D}/lib/firmware/brcm/brcmfmac43455-sdio.txt
-	install -m 444 ${S}/cyw-fmac-nvram/README_NVRAM ${D}/lib/firmware/brcm
+	install -m 444 ${S}/cyw-fmac-nvram/README_NVRAM.txt ${D}/lib/firmware/brcm
 
 
 #       Copying wl tool binary to /usr/sbin

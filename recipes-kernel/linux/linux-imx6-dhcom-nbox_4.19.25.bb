@@ -11,12 +11,12 @@ LIC_FILES_CHKSUM="file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 DEPENDS += "lzop-native bc-native"
 
 # select branch 
-SRCBRANCH = "release/nBox/4.19.25_dhsom/20200505"
+SRCBRANCH = "release/nBox/4.19.25_dhsom/20210224"
 
 # use latest source
 SRCREV = "${AUTOREV}"
 
-LOCALVERSION = "-release20200505"
+LOCALVERSION = "-release20210224"
 
 #SRC_URI += "file://0001-.....patch"
 
